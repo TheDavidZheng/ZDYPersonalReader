@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633056F91C51D02C00AFB44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633056F81C51D02C00AFB44A /* main.m */; };
+		633056FC1C51D02C00AFB44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633056FB1C51D02C00AFB44A /* AppDelegate.m */; };
+		633056FF1C51D02C00AFB44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633056FE1C51D02C00AFB44A /* ViewController.m */; };
+		633057021C51D02C00AFB44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633057001C51D02C00AFB44A /* Main.storyboard */; };
+		633057041C51D02C00AFB44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633057031C51D02C00AFB44A /* Assets.xcassets */; };
+		633057071C51D02C00AFB44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633057051C51D02C00AFB44A /* LaunchScreen.storyboard */; };
+		635B4C731C532B4C00554C24 /* NetRequsetClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C721C532B4C00554C24 /* NetRequsetClass.m */; };
+		6A276111F3711207FEA1CC3F /* libPods-ZDYPersonalReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C052BC636CEAC298DFA03857 /* libPods-ZDYPersonalReader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		633056F41C51D02C00AFB44A /* ZDYPersonalReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDYPersonalReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633056F81C51D02C00AFB44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633056FA1C51D02C00AFB44A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633056FB1C51D02C00AFB44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633056FD1C51D02C00AFB44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		633056FE1C51D02C00AFB44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		633057011C51D02C00AFB44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633057031C51D02C00AFB44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633057061C51D02C00AFB44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633057081C51D02C00AFB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635B4C711C532B4C00554C24 /* NetRequsetClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequsetClass.h; sourceTree = "<group>"; };
+		635B4C721C532B4C00554C24 /* NetRequsetClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequsetClass.m; sourceTree = "<group>"; };
+		635B4C761C532BD600554C24 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		635B4C771C532CFA00554C24 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C052BC636CEAC298DFA03857 /* libPods-ZDYPersonalReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZDYPersonalReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EF0C47766F2CC0DF447418 /* Pods-ZDYPersonalReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDYPersonalReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDYPersonalReader/Pods-ZDYPersonalReader.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2D8425AC3CD4359055F17D /* Pods-ZDYPersonalReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDYPersonalReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDYPersonalReader/Pods-ZDYPersonalReader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633056F11C51D02C00AFB44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A276111F3711207FEA1CC3F /* libPods-ZDYPersonalReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4595C573E627C84A2ADF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C052BC636CEAC298DFA03857 /* libPods-ZDYPersonalReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		633056EB1C51D02C00AFB44A = {
+			isa = PBXGroup;
+			children = (
+				633056F61C51D02C00AFB44A /* ZDYPersonalReader */,
+				633056F51C51D02C00AFB44A /* Products */,
+				FCC1DFB14DD12A7813F3FD61 /* Pods */,
+				1C4595C573E627C84A2ADF1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		633056F51C51D02C00AFB44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633056F41C51D02C00AFB44A /* ZDYPersonalReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633056F61C51D02C00AFB44A /* ZDYPersonalReader */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C741C532BA000554C24 /* Config */,
+				635B4C701C532B2500554C24 /* NetRequest */,
+				633056FA1C51D02C00AFB44A /* AppDelegate.h */,
+				633056FB1C51D02C00AFB44A /* AppDelegate.m */,
+				633056FD1C51D02C00AFB44A /* ViewController.h */,
+				633056FE1C51D02C00AFB44A /* ViewController.m */,
+				633057001C51D02C00AFB44A /* Main.storyboard */,
+				633057031C51D02C00AFB44A /* Assets.xcassets */,
+				633057051C51D02C00AFB44A /* LaunchScreen.storyboard */,
+				633057081C51D02C00AFB44A /* Info.plist */,
+				633056F71C51D02C00AFB44A /* Supporting Files */,
+			);
+			path = ZDYPersonalReader;
+			sourceTree = "<group>";
+		};
+		633056F71C51D02C00AFB44A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633056F81C51D02C00AFB44A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635B4C701C532B2500554C24 /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C711C532B4C00554C24 /* NetRequsetClass.h */,
+				635B4C721C532B4C00554C24 /* NetRequsetClass.m */,
+			);
+			name = NetRequest;
+			sourceTree = "<group>";
+		};
+		635B4C741C532BA000554C24 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C761C532BD600554C24 /* Config.h */,
+				635B4C771C532CFA00554C24 /* PrefixHeader.pch */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		FCC1DFB14DD12A7813F3FD61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2EF0C47766F2CC0DF447418 /* Pods-ZDYPersonalReader.debug.xcconfig */,
+				DF2D8425AC3CD4359055F17D /* Pods-ZDYPersonalReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633056F31C51D02C00AFB44A /* ZDYPersonalReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6330570B1C51D02C00AFB44A /* Build configuration list for PBXNativeTarget "ZDYPersonalReader" */;
+			buildPhases = (
+				72D7F3C74000366D4E4EDE37 /* Check Pods Manifest.lock */,
+				633056F01C51D02C00AFB44A /* Sources */,
+				633056F11C51D02C00AFB44A /* Frameworks */,
+				633056F21C51D02C00AFB44A /* Resources */,
+				DAF43CD92E54BF003771FF78 /* Embed Pods Frameworks */,
+				163FB1AD435E1558E172C859 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDYPersonalReader;
+			productName = ZDYPersonalReader;
+			productReference = 633056F41C51D02C00AFB44A /* ZDYPersonalReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633056EC1C51D02C00AFB44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = david;
+				TargetAttributes = {
+					633056F31C51D02C00AFB44A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 633056EF1C51D02C00AFB44A /* Build configuration list for PBXProject "ZDYPersonalReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633056EB1C51D02C00AFB44A;
+			productRefGroup = 633056F51C51D02C00AFB44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633056F31C51D02C00AFB44A /* ZDYPersonalReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633056F21C51D02C00AFB44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633057071C51D02C00AFB44A /* LaunchScreen.storyboard in Resources */,
+				633057041C51D02C00AFB44A /* Assets.xcassets in Resources */,
+				633057021C51D02C00AFB44A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163FB1AD435E1558E172C859 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDYPersonalReader/Pods-ZDYPersonalReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D7F3C74000366D4E4EDE37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF43CD92E54BF003771FF78 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDYPersonalReader/Pods-ZDYPersonalReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633056F01C51D02C00AFB44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633056FF1C51D02C00AFB44A /* ViewController.m in Sources */,
+				633056FC1C51D02C00AFB44A /* AppDelegate.m in Sources */,
+				635B4C731C532B4C00554C24 /* NetRequsetClass.m in Sources */,
+				633056F91C51D02C00AFB44A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		633057001C51D02C00AFB44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633057011C51D02C00AFB44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633057051C51D02C00AFB44A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633057061C51D02C00AFB44A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633057091C51D02C00AFB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6330570A1C51D02C00AFB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6330570C1C51D02C00AFB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EF0C47766F2CC0DF447418 /* Pods-ZDYPersonalReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/david/code/ZDYPersonalReader/ZDYPersonalReader/PrefixHeader.pch;
+				INFOPLIST_FILE = ZDYPersonalReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.ZDYPersonalReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6330570D1C51D02C00AFB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2D8425AC3CD4359055F17D /* Pods-ZDYPersonalReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/david/code/ZDYPersonalReader/ZDYPersonalReader/PrefixHeader.pch;
+				INFOPLIST_FILE = ZDYPersonalReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.ZDYPersonalReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633056EF1C51D02C00AFB44A /* Build configuration list for PBXProject "ZDYPersonalReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633057091C51D02C00AFB44A /* Debug */,
+				6330570A1C51D02C00AFB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6330570B1C51D02C00AFB44A /* Build configuration list for PBXNativeTarget "ZDYPersonalReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6330570C1C51D02C00AFB44A /* Debug */,
+				6330570D1C51D02C00AFB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633056EC1C51D02C00AFB44A /* Project object */;
+}
