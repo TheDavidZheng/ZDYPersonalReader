@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ZDYNewsListViewController.h"
+#import "ZDYNewsViewModel.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ZDYNewsListViewController * newsListController = [[ZDYNewsListViewController alloc] init];
+    
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:newsListController];
+    
+    nav.navigationBarHidden = YES;
+    
+    [self.window setRootViewController:nav];
+    
     return YES;
 }
 

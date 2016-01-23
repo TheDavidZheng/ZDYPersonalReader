@@ -14,6 +14,9 @@ typedef void (^ErrorCodeBlock) (id errorCode);
 typedef void (^FailureBlock) ();
 typedef void (^NetWorkBlock) (BOOL netConnetState);
 
+#define NEWS_ADDRESS @"http://api.huceo.com/guonei/other/"
+#define NEWS_KEY @"a4fd7591c7aa1bb4926cde882cda2a04"
+
 /**
  *
  */
@@ -82,4 +85,4 @@ typedef void (^NetWorkBlock) (BOOL netConnetState);
 #define HexAlphaColor(hexString, hexAlpha) [UIColor colorWithHexString:hexString alpha:hexAlpha]
 
 
-#endif /* Config_h */
+#endif /* ZDYPersonalReader_Config_h */

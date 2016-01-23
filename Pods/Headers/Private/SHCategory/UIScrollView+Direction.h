@@ -1,1 +1,0 @@
-../../../SHCategory/SHCategory/UIScrollView+Direction.h

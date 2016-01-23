@@ -1,1 +1,0 @@
-../../../SimpleCam/SimpleCam/SimpleCam/SimpleCam.h

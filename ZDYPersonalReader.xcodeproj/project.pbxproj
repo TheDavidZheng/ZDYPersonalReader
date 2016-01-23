@@ -13,7 +13,15 @@
 		633057021C51D02C00AFB44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633057001C51D02C00AFB44A /* Main.storyboard */; };
 		633057041C51D02C00AFB44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633057031C51D02C00AFB44A /* Assets.xcassets */; };
 		633057071C51D02C00AFB44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633057051C51D02C00AFB44A /* LaunchScreen.storyboard */; };
-		635B4C731C532B4C00554C24 /* NetRequsetClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C721C532B4C00554C24 /* NetRequsetClass.m */; };
+		635B4C731C532B4C00554C24 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C721C532B4C00554C24 /* NetRequestClass.m */; };
+		635B4C7C1C533DB900554C24 /* ZDYBaseNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C7B1C533DB900554C24 /* ZDYBaseNewsListViewController.m */; };
+		635B4C821C533F9900554C24 /* ZDYTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C811C533F9900554C24 /* ZDYTopBar.m */; };
+		635B4C891C534CB300554C24 /* UIViewController+ZDYTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C881C534CB300554C24 /* UIViewController+ZDYTopBar.m */; };
+		635B4C8C1C53524600554C24 /* ZDYNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C8B1C53524600554C24 /* ZDYNewsListViewController.m */; };
+		635B4C901C5357AD00554C24 /* ZDYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C8F1C5357AD00554C24 /* ZDYNewsModel.m */; };
+		635B4C941C535ABB00554C24 /* ZDYNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C931C535ABB00554C24 /* ZDYNewsViewModel.m */; };
+		635B4C971C53691900554C24 /* ZDYNewsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C961C53691900554C24 /* ZDYNewsListCell.m */; };
+		635B4C9B1C5371C700554C24 /* ZDYViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B4C9A1C5371C700554C24 /* ZDYViewModelClass.m */; };
 		6A276111F3711207FEA1CC3F /* libPods-ZDYPersonalReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C052BC636CEAC298DFA03857 /* libPods-ZDYPersonalReader.a */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +36,27 @@
 		633057031C51D02C00AFB44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		633057061C51D02C00AFB44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633057081C51D02C00AFB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		635B4C711C532B4C00554C24 /* NetRequsetClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequsetClass.h; sourceTree = "<group>"; };
-		635B4C721C532B4C00554C24 /* NetRequsetClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequsetClass.m; sourceTree = "<group>"; };
+		635B4C711C532B4C00554C24 /* NetRequestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestClass.h; sourceTree = "<group>"; };
+		635B4C721C532B4C00554C24 /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		635B4C761C532BD600554C24 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		635B4C771C532CFA00554C24 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		635B4C7A1C533DB900554C24 /* ZDYBaseNewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYBaseNewsListViewController.h; sourceTree = "<group>"; };
+		635B4C7B1C533DB900554C24 /* ZDYBaseNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYBaseNewsListViewController.m; sourceTree = "<group>"; };
+		635B4C7E1C533E1800554C24 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		635B4C801C533F9900554C24 /* ZDYTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYTopBar.h; sourceTree = "<group>"; };
+		635B4C811C533F9900554C24 /* ZDYTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYTopBar.m; sourceTree = "<group>"; };
+		635B4C871C534CB300554C24 /* UIViewController+ZDYTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZDYTopBar.h"; sourceTree = "<group>"; };
+		635B4C881C534CB300554C24 /* UIViewController+ZDYTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZDYTopBar.m"; sourceTree = "<group>"; };
+		635B4C8A1C53524600554C24 /* ZDYNewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYNewsListViewController.h; sourceTree = "<group>"; };
+		635B4C8B1C53524600554C24 /* ZDYNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYNewsListViewController.m; sourceTree = "<group>"; };
+		635B4C8E1C5357AD00554C24 /* ZDYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYNewsModel.h; sourceTree = "<group>"; };
+		635B4C8F1C5357AD00554C24 /* ZDYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYNewsModel.m; sourceTree = "<group>"; };
+		635B4C921C535ABB00554C24 /* ZDYNewsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYNewsViewModel.h; sourceTree = "<group>"; };
+		635B4C931C535ABB00554C24 /* ZDYNewsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYNewsViewModel.m; sourceTree = "<group>"; };
+		635B4C951C53691900554C24 /* ZDYNewsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYNewsListCell.h; sourceTree = "<group>"; };
+		635B4C961C53691900554C24 /* ZDYNewsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYNewsListCell.m; sourceTree = "<group>"; };
+		635B4C991C5371C700554C24 /* ZDYViewModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYViewModelClass.h; sourceTree = "<group>"; };
+		635B4C9A1C5371C700554C24 /* ZDYViewModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYViewModelClass.m; sourceTree = "<group>"; };
 		C052BC636CEAC298DFA03857 /* libPods-ZDYPersonalReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZDYPersonalReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EF0C47766F2CC0DF447418 /* Pods-ZDYPersonalReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDYPersonalReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDYPersonalReader/Pods-ZDYPersonalReader.debug.xcconfig"; sourceTree = "<group>"; };
 		DF2D8425AC3CD4359055F17D /* Pods-ZDYPersonalReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDYPersonalReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDYPersonalReader/Pods-ZDYPersonalReader.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,16 +103,18 @@
 		633056F61C51D02C00AFB44A /* ZDYPersonalReader */ = {
 			isa = PBXGroup;
 			children = (
+				635B4C831C534B7A00554C24 /* Category */,
 				635B4C741C532BA000554C24 /* Config */,
+				635B4C7D1C533DDA00554C24 /* Common */,
 				635B4C701C532B2500554C24 /* NetRequest */,
+				635B4C8D1C53577B00554C24 /* Model */,
+				635B4C911C535A8400554C24 /* ViewModel */,
+				635B4C7F1C533F5100554C24 /* View */,
+				635B4C781C533D4100554C24 /* ViewController */,
 				633056FA1C51D02C00AFB44A /* AppDelegate.h */,
 				633056FB1C51D02C00AFB44A /* AppDelegate.m */,
 				633056FD1C51D02C00AFB44A /* ViewController.h */,
 				633056FE1C51D02C00AFB44A /* ViewController.m */,
-				633057001C51D02C00AFB44A /* Main.storyboard */,
-				633057031C51D02C00AFB44A /* Assets.xcassets */,
-				633057051C51D02C00AFB44A /* LaunchScreen.storyboard */,
-				633057081C51D02C00AFB44A /* Info.plist */,
 				633056F71C51D02C00AFB44A /* Supporting Files */,
 			);
 			path = ZDYPersonalReader;
@@ -96,6 +123,10 @@
 		633056F71C51D02C00AFB44A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				633057001C51D02C00AFB44A /* Main.storyboard */,
+				633057031C51D02C00AFB44A /* Assets.xcassets */,
+				633057051C51D02C00AFB44A /* LaunchScreen.storyboard */,
+				633057081C51D02C00AFB44A /* Info.plist */,
 				633056F81C51D02C00AFB44A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -104,8 +135,8 @@
 		635B4C701C532B2500554C24 /* NetRequest */ = {
 			isa = PBXGroup;
 			children = (
-				635B4C711C532B4C00554C24 /* NetRequsetClass.h */,
-				635B4C721C532B4C00554C24 /* NetRequsetClass.m */,
+				635B4C711C532B4C00554C24 /* NetRequestClass.h */,
+				635B4C721C532B4C00554C24 /* NetRequestClass.m */,
 			);
 			name = NetRequest;
 			sourceTree = "<group>";
@@ -117,6 +148,81 @@
 				635B4C771C532CFA00554C24 /* PrefixHeader.pch */,
 			);
 			name = Config;
+			sourceTree = "<group>";
+		};
+		635B4C781C533D4100554C24 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C791C533D7500554C24 /* Base */,
+				635B4C8A1C53524600554C24 /* ZDYNewsListViewController.h */,
+				635B4C8B1C53524600554C24 /* ZDYNewsListViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		635B4C791C533D7500554C24 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C7A1C533DB900554C24 /* ZDYBaseNewsListViewController.h */,
+				635B4C7B1C533DB900554C24 /* ZDYBaseNewsListViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		635B4C7D1C533DDA00554C24 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C7E1C533E1800554C24 /* Common.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		635B4C7F1C533F5100554C24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C801C533F9900554C24 /* ZDYTopBar.h */,
+				635B4C811C533F9900554C24 /* ZDYTopBar.m */,
+				635B4C951C53691900554C24 /* ZDYNewsListCell.h */,
+				635B4C961C53691900554C24 /* ZDYNewsListCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		635B4C831C534B7A00554C24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C871C534CB300554C24 /* UIViewController+ZDYTopBar.h */,
+				635B4C881C534CB300554C24 /* UIViewController+ZDYTopBar.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		635B4C8D1C53577B00554C24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C8E1C5357AD00554C24 /* ZDYNewsModel.h */,
+				635B4C8F1C5357AD00554C24 /* ZDYNewsModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		635B4C911C535A8400554C24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C981C53717200554C24 /* Base */,
+				635B4C921C535ABB00554C24 /* ZDYNewsViewModel.h */,
+				635B4C931C535ABB00554C24 /* ZDYNewsViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		635B4C981C53717200554C24 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				635B4C991C5371C700554C24 /* ZDYViewModelClass.h */,
+				635B4C9A1C5371C700554C24 /* ZDYViewModelClass.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		FCC1DFB14DD12A7813F3FD61 /* Pods */ = {
@@ -251,8 +357,16 @@
 			files = (
 				633056FF1C51D02C00AFB44A /* ViewController.m in Sources */,
 				633056FC1C51D02C00AFB44A /* AppDelegate.m in Sources */,
-				635B4C731C532B4C00554C24 /* NetRequsetClass.m in Sources */,
+				635B4C731C532B4C00554C24 /* NetRequestClass.m in Sources */,
+				635B4C9B1C5371C700554C24 /* ZDYViewModelClass.m in Sources */,
+				635B4C821C533F9900554C24 /* ZDYTopBar.m in Sources */,
 				633056F91C51D02C00AFB44A /* main.m in Sources */,
+				635B4C901C5357AD00554C24 /* ZDYNewsModel.m in Sources */,
+				635B4C8C1C53524600554C24 /* ZDYNewsListViewController.m in Sources */,
+				635B4C941C535ABB00554C24 /* ZDYNewsViewModel.m in Sources */,
+				635B4C891C534CB300554C24 /* UIViewController+ZDYTopBar.m in Sources */,
+				635B4C971C53691900554C24 /* ZDYNewsListCell.m in Sources */,
+				635B4C7C1C533DB900554C24 /* ZDYBaseNewsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +479,7 @@
 			baseConfigurationReference = C2EF0C47766F2CC0DF447418 /* Pods-ZDYPersonalReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/david/code/ZDYPersonalReader/ZDYPersonalReader/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ZDYPersonalReader/PrefixHeader.pch;
 				INFOPLIST_FILE = ZDYPersonalReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.ZDYPersonalReader;
@@ -378,7 +492,7 @@
 			baseConfigurationReference = DF2D8425AC3CD4359055F17D /* Pods-ZDYPersonalReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/david/code/ZDYPersonalReader/ZDYPersonalReader/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ZDYPersonalReader/PrefixHeader.pch;
 				INFOPLIST_FILE = ZDYPersonalReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.ZDYPersonalReader;

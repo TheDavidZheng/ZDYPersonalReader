@@ -1,1 +1,0 @@
-../../../BFDragGestureRecognizer/BFDragGestureRecognizer/BFDragGestureRecognizer.h
